@@ -1,1 +1,62 @@
+/* main_part */
+.main-part {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0;
+    top: 0;
+    /* Additional styles based on Figma */
+}
+
+/* part_1_testimonials */
+.part-1-testimonials {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    /* Additional styles based on Figma */
+}
+
+/* part_2_tutorials */
+.part-2-tutorials {
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    left: 106px;
+    top: 1572px;
+    /* Additional styles based on Figma */
+}
+
+/* part_3_free_membership */
+.part-3-free-membership {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0;
+    top: 2109px;
+    /* Additional styles based on Figma */
+}
+
+/* part_4_FAQ */
+.part-4-faq {
+    position: absolute;
+    width: 920px;
+    height: 707px;
+    left: 249px;
+    top: 2678px;
+    /* Additional styles based on Figma */
+}
+
+/* part_5_footer */
+.part-5-footer {
+    position: absolute;
+    width: 1440px;
+    height: 249px;
+    left: 0;
+    top: 3469px;
+    /* Additional styles based on Figma */
+}
+
+
 
