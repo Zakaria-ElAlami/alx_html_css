@@ -1,0 +1,87 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Variables */
+:root {
+  --primary-color: #FF6565; /* Main color for hover effects */
+  --icon-color: #333;
+  --max-content-width: 1000px;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* What We Do Section Styles */
+.what-we-do {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.service {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%; /* Service blocks take up 30% of the width */
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.service:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect on hover */
+}
+
+.service i {
+  font-size: 4rem;
+  color: var(--icon-color);
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service {
+    width: 45%; /* Adjusts service width on tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .service {
+    width: 100%; /* Services stack vertically on mobile */
+  }
+}
