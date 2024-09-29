@@ -1,0 +1,81 @@
+/* What We Do Section Styles */
+.what-we-do {
+  padding: 50px 0;
+  background-color: #ffffff; /* Set a background color */
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Animation properties */
+  opacity: 0.8; /* Initial opacity */
+}
+
+.service-item:hover {
+  transform: scale(1.05) rotate(2deg); /* Scale and slight rotation on hover */
+  opacity: 1; /* Full opacity on hover */
+}
+
+/* Our Results Section Styles */
+.our-results {
+  padding: 50px 0;
+  background-color: #ffffff; /* Set a background color */
+  text-align: center;
+}
+
+.our-results h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.result {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%; /* Result blocks take up 30% of the width */
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Animation properties */
+  opacity: 0.8; /* Initial opacity */
+}
+
+.result:hover {
+  transform: scale(1.05) rotate(-2deg); /* Scale and slight rotation on hover */
+  opacity: 1; /* Full opacity on hover */
+}
+
+/* Responsive Design for Our Results Section */
+@media (max-width: 768px) {
+  .service-item,
+  .result {
+    width: 45%; /* Adjusts result width on tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .service-item,
+  .result {
+    width: 100%; /* Results stack vertically on mobile */
+  }
+}
