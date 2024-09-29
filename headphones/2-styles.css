@@ -1,0 +1,59 @@
+/* Our Results Section Styles */
+.our-results {
+  padding: 50px 0;
+  background-color: #ffffff; /* You can set a different background */
+  text-align: center;
+}
+
+.our-results h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.result {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%; /* Result blocks take up 30% of the width */
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.result:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect on hover */
+}
+
+.result i {
+  font-size: 4rem;
+  color: var(--icon-color); /* Using the same icon color as before */
+  margin-bottom: 15px;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 1rem;
+}
+
+/* Responsive Design for Our Results Section */
+@media (max-width: 768px) {
+  .result {
+    width: 45%; /* Adjusts result width on tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .result {
+    width: 100%; /* Results stack vertically on mobile */
+  }
+}
